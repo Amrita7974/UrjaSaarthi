@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { SolarAnalysis } from '../types';
+import type { SolarAnalysis } from '../types';
 import { jsPDF } from 'jspdf';
 import 'jspdf-autotable';
 

@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { SolarAnalysis, SubsidyScheme } from '../types';
+import type { SolarAnalysis, SubsidyScheme } from '../types';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, Cell } from 'recharts';
 import { jsPDF } from 'jspdf';
 import 'jspdf-autotable';

@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { UserInput, SolarAnalysis, Appliance } from './types';
+import type { UserInput, SolarAnalysis, Appliance } from './types';
 import { HOUSE_TYPES, MAJOR_APPLIANCES as DEFAULT_APPLIANCES } from './constants.tsx';
 import ApplianceGrid from './components/ApplianceGrid';
 import AnalysisView from './components/AnalysisView';

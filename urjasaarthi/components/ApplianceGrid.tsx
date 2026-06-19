@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { Appliance } from '../types';
+import type { Appliance } from '../types';
 
 interface ApplianceGridProps {
   appliances: Appliance[];

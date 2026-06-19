@@ -1,8 +1,9 @@
 import Groq from "groq-sdk";
-import { UserInput, SolarAnalysis } from "../types";
+import type { UserInput, SolarAnalysis } from "../types";
 
 const groq = new Groq({ 
-  apiKey: process.env.GROQ_API_KEY, 
+  apiKey: "proxy-key", 
+  baseURL: "/api/groq",
   dangerouslyAllowBrowser: true 
 });
 

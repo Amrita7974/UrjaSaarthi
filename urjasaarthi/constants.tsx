@@ -1,6 +1,6 @@
 
-import React from 'react';
-import { Appliance } from './types';
+
+import type { Appliance } from './types';
 
 export const MAJOR_APPLIANCES: Appliance[] = [
   { id: 'ac', name: 'Air Conditioner', watts: 1500, icon: '❄️' },
